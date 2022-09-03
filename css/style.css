@@ -1,0 +1,119 @@
+/*IMPORTS*/
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Space Mono;
+}
+
+.page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.page-container header {
+  flex-grow: 1;
+}
+.page-container h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+  font-family: "Inconsolata";
+}
+.page-container footer {
+  flex-grow: 1;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  gap: 60px;
+  flex-grow: 2;
+}
+.content .img-container img {
+  width: 500px;
+  align-items: center;
+}
+.content .text-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content .text-container h2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #333333;
+  font-family: "Inconsolata";
+}
+.content .text-container p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+.content .text-container .btn {
+  width: 216px;
+  height: 68px;
+  background-color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  border: transparent;
+}
+.content .text-container .btn:hover {
+  border: #333333;
+  background-color: #bdbdbd;
+  color: #4f4f4f;
+}
+
+footer {
+  text-align: center;
+}
+footer .footer-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #bdbdbd;
+  font-family: "Montserrat";
+}
+footer .footer-text a {
+  color: #bdbdbd;
+  cursor: pointer;
+}
+footer .footer-text a:hover {
+  color: #4f4f4f;
+  font-weight: 500;
+}
+
+@media (700px < width < 870px) {
+  img {
+    max-width: 300px;
+  }
+}
+@media (max-width: 700px) {
+  .content {
+    flex-direction: column;
+  }
+  .text-container h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #333333;
+    font-family: "Inconsolata";
+  }
+  .text-container p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4f4f4f;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

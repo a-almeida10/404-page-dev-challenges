@@ -1,0 +1,109 @@
+@import "./colors.scss";
+@import "./text.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Space Mono;
+}
+
+.page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  header {
+    flex-grow: 1;
+  }
+  h1 {
+    @include text-style(24px, 700, $dark-grey);
+    font-family: "Inconsolata";
+  }
+
+  footer {
+    flex-grow: 1;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  gap: 60px;
+  flex-grow: 2;
+
+  .img-container {
+    img {
+      width: 500px;
+      align-items: center;
+    }
+  }
+  .text-container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    h2 {
+      @include text-style(64px, 700, $dark-grey);
+      font-family: "Inconsolata";
+    }
+    p {
+      @include text-style(24px, 400, $text-gray);
+    }
+    .btn {
+      width: 216px;
+      height: 68px;
+      background-color: $dark-grey;
+      @include text-style(14px, 700, $white);
+      cursor: pointer;
+      border: transparent;
+      &:hover {
+        border: $dark-grey;
+        background-color: $light-gray;
+        color: $text-gray;
+      }
+    }
+  }
+}
+footer {
+  text-align: center;
+  .footer-text {
+    @include text-style(18px, 400, $light-gray);
+    font-family: "Montserrat";
+    a {
+      color: $light-gray;
+      cursor: pointer;
+      &:hover {
+        color: $text-gray;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+@media (700px < width < 870px) {
+  img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .content {
+    flex-direction: column;
+  }
+  .text-container {
+    h2 {
+      @include text-style(48px, 700, $dark-grey);
+      font-family: "Inconsolata";
+    }
+    p {
+      @include text-style(18px, 400, $text-gray);
+    }
+  }
+}
