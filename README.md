@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://https://404-page-dev-challenges.vercel.app/">
+    <a href="https://https://404-page-dev-challenges.vercel.app/" target="_blank" >
       Preview
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY"  target="_blank" >
       Desafio
     </a>
   </h3>
@@ -26,19 +26,21 @@
 - [Ferramentas](#ferramentas)
 - [Contato](#contato)
 
-
 <!-- OVERVIEW -->
 
 ## Visão geral
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+Desktop Version:
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+![screenshot](./screenshots/desktop-version.png)
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+Tablet Version:
+
+![screenshot](./screenshots/tablet-version.png)
+
+Mobile Version:
+
+![screenshot](./screenshots/mobile-version.png)
 
 ### Ferramentas
 
@@ -48,6 +50,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - CSS
 - [SASS](https://sass-lang.com/)
 
-
 ## Contato
+
 - Linkedin (https://www.linkedin.com/in/aghata-almeida/)
