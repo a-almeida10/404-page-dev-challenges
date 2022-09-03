@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://https://404-page-dev-challenges.vercel.app/" target="_blank" >
+    <a href="https://404-page-dev-challenges.vercel.app/" target="_blank" >
       Preview
     </a>
     <span> | </span>
