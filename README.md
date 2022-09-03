@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Página de erro 404}</h1>
+<h1 align="center">Página de erro 404</h1>
 
 <div align="center">
    Solução para um desafio de <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
