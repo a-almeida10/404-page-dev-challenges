@@ -30,17 +30,16 @@
 
 ## Visão geral
 
-Desktop Version:
+<h4>Versão para desktop:</h4>
+ <img src="https://github.com/a-almeida10/404-page-dev-challenges/blob/main/screenshots/desktop-version.png" width="500px"/>
+ <h4>Versão mobile:</h4>
+ <img src="https://github.com/a-almeida10/404-page-dev-challenges/blob/main/screenshots/mobile-version.png" height="400px"/>
+ 
+ O desafio proposto foi construir uma página de erro responsiva a partir do design solicitado pelo usuário, tendo versões adaptadas para desktop e mobile. 
 
-![screenshot](./screenshots/desktop-version.png)
 
-Tablet Version:
 
-![screenshot](./screenshots/tablet-version.png)
 
-Mobile Version:
-
-![screenshot](./screenshots/mobile-version.png)
 
 ### Ferramentas
 
